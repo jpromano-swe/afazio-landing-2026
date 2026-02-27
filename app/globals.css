@@ -592,18 +592,6 @@ a {
   letter-spacing: -0.02em;
 }
 
-.service-badge {
-  border-radius: 999px;
-  border: 1px solid rgba(165, 0, 38, 0.18);
-  background: rgba(165, 0, 38, 0.1);
-  color: var(--accent);
-  padding: 6px 10px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
 .service-switcher {
   --selector-w: clamp(240px, 26vw, 340px);
   --selector-h: 168px;
@@ -876,13 +864,6 @@ a {
   width: min(100%, var(--services-content-max, 1040px));
 }
 
-.logo-cloud .section-head {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  align-items: flex-end;
-}
-
 .marquee-wrap {
   position: relative;
   margin-top: 20px;
@@ -958,15 +939,6 @@ a {
 
 .marquee-track:hover .logo-pill:hover span {
   color: var(--accent);
-}
-
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(calc(-50% - 6px));
-  }
 }
 
 @keyframes hero-flip-span-a {
@@ -1661,10 +1633,6 @@ a {
   .service-block-head {
     flex-direction: column;
     gap: 10px;
-  }
-
-  .service-badge {
-    font-size: 0.72rem;
   }
 
   .service-switcher {

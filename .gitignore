@@ -7,6 +7,9 @@
 /.next
 /out
 /dist
+/.vercel
+/.pnpm-store
+/coverage
 
 # Logs
 npm-debug.log*
