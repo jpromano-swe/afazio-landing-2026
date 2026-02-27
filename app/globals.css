@@ -1673,6 +1673,7 @@ a {
   }
 
   .service-switcher[data-align="reverse"] .service-detail-card {
+    padding: 18px;
     text-align: left;
   }
 
@@ -1697,6 +1698,13 @@ a {
     border-top-left-radius: 0;
     background: transparent;
     overflow: visible;
+  }
+
+  .service-switcher[data-align="reverse"] .service-feature-nav {
+    left: auto;
+    right: auto;
+    padding: 0;
+    border-top-right-radius: 0;
   }
 
   .service-feature-nav::before {
@@ -1842,6 +1850,10 @@ a {
   }
 
   .service-detail-card {
+    padding: 16px;
+  }
+
+  .service-switcher[data-align="reverse"] .service-detail-card {
     padding: 16px;
   }
 
