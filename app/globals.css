@@ -570,9 +570,8 @@ a {
 .service-block-reverse .service-block-head {
   transform: none;
   justify-content: space-between;
-  width: min(100%, var(--services-content-max, 1090px));
-  margin-left: 0;
-  margin-right: auto;
+  width: 100%;
+  margin: 0;
 }
 
 .service-block-reverse .service-block-head > div:first-child {
